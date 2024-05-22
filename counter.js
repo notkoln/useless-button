@@ -10,7 +10,7 @@ var btn = document.getElementById("clicker");
 
 // loads the amount of taps the user has
 var clicksInt = parseInt(localStorage.getItem("taps"));
-localStorage.setItem("clicks", clicksInt);
+localStorage.setItem("taps", clicksInt);
 btn.innerText = `${clicksInt}`
 
 btn.onclick = function() {
